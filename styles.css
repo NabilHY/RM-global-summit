@@ -13,36 +13,66 @@
 
   @font-face {
     font-family: "cocogoose";
-    src: url("fonts/Cocogoose Pro Semilight-trial.ttf");
+    src: url("fonts/Cocogoose_trial.otf");
   }
 
   .header-section {
+    display: flex;
+    flex-direction: column;
     background-image: url('backgrounds/bg-main-desk.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: initial;
     width: 100%;
     height: 100%;
+    padding: 5% 5% 16% 5%;
   }
 
   .lower-nav-bar {
     display: flex;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 15%;
   }
 
   .header-section h2 {
     color: #ec5242;
     font-family: "lato", sans-serif;
+
   }
 
   .header-section h1 {
     color: #ec5242;
     font-family: "cocogoose", sans-serif;
+    padding-bottom: 5%;
+  }
+
+  .header-decription-container {
+    padding: 4%;
+    background-color: #ededed;
+    color: #272a31;
+    border: 4px solid #ffffff;
   }
 
   .header-description {
-      
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+
+  .bottom-description-container h3 {
+    font-family: 'cocogoose', sans-serif;
+    color: #272a31;
+    padding-bottom: 4%;
+  }
+  .bottom-description-container p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #272a31;
   }
 }
+
+
 
 /* Desktop version media query css code 768px wide or more
 @media only screen and (min-width: 768px){
