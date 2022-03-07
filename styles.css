@@ -1,0 +1,50 @@
+/* Mobile version media query css code 767px wide or less */
+@media only screen and (max-width: 767px) {
+  /* header and nav stying for mobile version */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: "cocogoose";
+    src: url("fonts/Cocogoose Pro Semilight-trial.ttf");
+  }
+
+  .header-section {
+    background-image: url('backgrounds/bg-main-desk.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lower-nav-bar {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .header-section h2 {
+    color: #ec5242;
+    font-family: "lato", sans-serif;
+  }
+
+  .header-section h1 {
+    color: #ec5242;
+    font-family: "cocogoose", sans-serif;
+  }
+
+  .header-description {
+      
+  }
+}
+
+/* Desktop version media query css code 768px wide or more
+@media only screen and (min-width: 768px){
+
+} */
