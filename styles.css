@@ -37,7 +37,6 @@
   .header-section h2 {
     color: #ec5242;
     font-family: "lato", sans-serif;
-
   }
 
   .header-section h1 {
@@ -50,29 +49,202 @@
     padding: 4%;
     background-color: #ededed;
     color: #272a31;
-    border: 4px solid #ffffff;
+    border: 4px solid #fff;
   }
 
   .header-description {
-    font-family: sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 15px;
     line-height: 24px;
-    font-weight: 300;
+    font-weight: 900;
   }
 
   .bottom-description-container h3 {
     font-family: 'cocogoose', sans-serif;
     color: #272a31;
+    padding-top: 4%;
     padding-bottom: 4%;
   }
+
   .bottom-description-container p {
-    font-family: sans-serif;
+    font-family: "lato", sans-serif;
+    font-weight: 900;
     font-size: 15px;
     color: #272a31;
   }
+
+  /* works section styling */
+
+  .main-section {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-section h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: #fff;
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+  }
+
+  .first-rule {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    background-color: #ec5242;
+    height: 3px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .main-program {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4%;
+    margin: 1% 3%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .program-card img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .program-card h5 {
+    color: #ec5242;
+    font-family: "lato", sans-serif;
+    height: auto;
+    width: 30%;
+    font-weight: 900;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .program-card p {
+    color: #fff;
+    font-family: "lato", sans-serif;
+    flex: 3;
+    height: auto;
+    width: auto;
+    font-weight: 900;
+  }
+
+  .main-section button {
+    padding: 6%;
+    background-color: #ec5242;
+    color: #fff;
+    border-style: none;
+    margin: 9%;
+  }
+
+  /* speakers section */
+
+  .speaker-image {
+    position: relative;
+    margin: auto;
+    max-width: 110px;
+    min-height: 110px;
+    height: auto;
+    width: 100%;
+  }
+
+  .speaker-bg {
+    position: absolute;
+    max-width: 45px;
+    max-height: 45px;
+    width: 100%;
+  }
+
+  .speaker-pic {
+    position: absolute;
+    max-width: 100px;
+    width: 100%;
+    z-index: 1;
+    max-height: 100px;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+  }
+
+  .speaker-section {
+    padding: 4%;
+    margin: 1% 3%;
+  }
+
+  .speaker-section h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: #272a31;
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+  }
+
+  .speaker-card {
+    display: flex;
+    gap: 10px;
+    padding: 4% 0 4% 4%;
+    margin: 1% -10%;
+  }
+
+  .speaker-description h5 {
+    color: #272a31;
+    font-family: "lato", sans-serif;
+    height: auto;
+    font-weight: 900;
+  }
+
+  .speaker-description h6 {
+    color: #ec5242;
+    font-family: "lato", sans-serif;
+    height: auto;
+    font-weight: 900;
+  }
+
+  .speaker-description {
+    display: flex;
+    flex-direction: column;
+    color: #272a31;
+    font-family: "lato", sans-serif;
+    height: auto;
+    width: auto;
+    font-weight: 900;
+  }
+
+  .second-rule {
+    text-align: center;
+    margin: 10px 0;
+    width: 8%;
+    background-color: #c9c2c1;
+    height: 3px;
+    border: none;
+  }
+
+  .collapse-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+    padding: 6%;
+    background-color: #fff;
+    border: 1px solid #c9c2c1;
+    width: 100%;
+  }
+
+  .collapse-menu p {
+    color: #ec5242;
+  }
 }
-
-
 
 /* Desktop version media query css code 768px wide or more
 @media only screen and (min-width: 768px){

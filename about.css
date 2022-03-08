@@ -1,0 +1,201 @@
+@media only screen and (max-width: 767px) {
+  /* header and nav stying for mobile version */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: "cocogoose";
+    src: url("fonts/Cocogoose_trial.otf");
+  }
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url('backgrounds/bg-main-desk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: initial;
+    width: 100%;
+    height: 100%;
+    padding: 5% 5% 16% 5%;
+    gap: 5px;
+  }
+
+  .lower-nav-bar {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 15%;
+  }
+
+  .header-section h2 {
+    color: #ec5242;
+    font-family: "lato", sans-serif;
+    text-align: center;
+  }
+
+  .header-section h1 {
+    color: #ec5242;
+    font-family: "cocogoose", sans-serif;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .header-decription-container {
+    padding: 4%;
+    background-color: #fff;
+    border: 4px solid #ededed;
+  }
+
+  .header-description {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #272a31;
+  }
+
+  .bottom-description {
+    margin-top: 6%;
+    color: #272a31;
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .bottom-description span {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* middle section code */
+
+  .middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 16% 5%;
+  }
+
+  .middle-section-description h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: #272a31;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+  }
+
+  .middle-section-description hr {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    background-color: #ec5242;
+    height: 3px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .middle-section p {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    color: #272a31;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .middle-section img {
+    width: 80%;
+    border: 1px solid #ededed;
+    margin: 7% 0;
+  }
+
+  .seperator {
+    width: 100%;
+  }
+
+  .middle-section-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* partners section styling */
+
+  .partners-section {
+    background-color: #272a31;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: "lato", sans-serif;
+    padding: 5% 5% 16% 5%;
+  }
+
+  .first-rule {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    background-color: #ec5242;
+    height: 3px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .partners-section h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: #fff;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+  }
+
+  .partners-images {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: [col1] 50% [col2] 50%;
+    grid-gap: 10px;
+    grid-template-rows: [row1] 47% [row2] 47%;
+  }
+
+  .partners-images img {
+    width: 80%;
+  }
+
+  /* footer section styling */
+
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    padding: 8% 8% 3% 8%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-section img {
+    width: 80%;
+  }
+
+  .footer-section p {
+    font-family: "lato", sans-serif;
+    font-size: 10px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: #272a31;
+  }
+}
