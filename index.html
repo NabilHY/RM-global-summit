@@ -9,155 +9,202 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap" rel="stylesheet">
-    <title>Global Summit Page</title>
+    <script src="https://kit.fontawesome.com/4f02d055e5.js" crossorigin="anonymous"></script>
+    <title>RM Summit Homepage</title>
 </head>
 
 <body>
     <!-- header-section -->
+
+
     <header class="header-section">
         <nav class="nav-bar">
-            <div class="upper-nav-bar"></div>
+            <div class="upper-nav-bar hidden-m">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <a href="#">Spanish</a>
+                <a href="#">My Page</a>
+                <a href="#">Logout</a>
+            </div>
             <div class="lower-nav-bar">
-                <img src="Icons\Union.svg" alt="hamburgerbtn">
+                <i class="hidden-d ham fas fa-bars fa-2x" aria-hidden="true"></i>
+                <img class="hidden-m rmlogo" src="Icons\584a9b47b080d7616d298778.png" alt="rmlogo">
+                <ul class="nav-items hidden-m">
+                    <li>About</li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                </ul>
+                <button class="hidden-m">Get your invitation</button>
             </div>
         </nav>
-        <h2>"Hello! Sharing world"</h2>
-        <h1>CREATE COMMONS GLOBAL SUMMIT 2015</h1>
-        <div class="header-decription-container">
-            <p class="header-description">A joyful celebration believing in the value of openness and sharing, creating
-                a positive change with people from over 80 countries is taking place in October, in Korea.</p>
-        </div>
-        <div class="bottom-description-container">
-            <h3>2015.10.15(THU) ~ 16(FRI)</h3>
-            <p>@ National Museum Of Korea, Art Center Nabi and more</p>
+        <div class="homepage">
+            <h2>"Hello! Madridista"</h2>
+            <h1>Real Madrid World Fans SUMMIT 2015</h1>
+            <div class="header-decription-container">
+                <p class="header-description">A joyful celebration believing in the value of sportsmanship and sharing,
+                    bringing in together more than 100 Real madrid fan clubs from all over the world, right here in the middle of Madrid right in the great santiago bernabeu stadium. 
+                </p>
+            </div>
+            <div class="bottom-description-container">
+                <h3>2015.07.07(FRI) ~ 16(SUN)</h3>
+                <p>@ Stadium Santiago Bernabeu, Confrence Center and more</p>
+            </div>
         </div>
     </header>
+
 
     <!-- main section -->
     <section class="main-section">
         <h3>Main Program</h3>
         <hr class="first-rule">
-        <div class="main-program">
-            <div class="program-card">
-                <img src="fonts\icons\lecture.png" alt="lectureicon">
-                <h5>Lecture</h5>
-                <p>Listen to the speakers from various countries about the messeges of sharing and opening.</p>
+        <div class="main-cards">
+            <div class="main-program">
+                <div class="program-card">
+                    <img src="fonts\icons\lecture.png" alt="lectureicon">
+                    <h5>Conferences</h5>
+                    <p>Listen to the speakers from various countries, with the prensence of the Club president.</p>
+                </div>
+            </div>
+            <div class="main-program">
+                <div class="program-card">
+                    <img src="fonts\icons\exhibiton.png" alt="exhibitionicon">
+                    <h5>Exhibition</h5>
+                    <p>Visting the different facilities in the stadium, and getting to know the rich history of the club.</p>
+                </div>
+            </div>
+            <div class="main-program">
+                <div class="program-card">
+                    <img src="fonts\icons\forum.png" alt="forumicon">
+                    <h5>Forum</h5>
+                    <p>Have the time to share your thoughts and opinions with the club's chairmen for each topic.</p>
+                </div>
+            </div>
+            <div class="main-program">
+                <div class="program-card">
+                    <img src="fonts\icons\workshop.png" alt="workshopicon">
+                    <h5>Get together</h5>
+                    <p>Meet our First team clubplayers and get the chance to take pictures and autographes.</p>
+                </div>
+            </div>
+            <div class="main-program">
+                <div class="program-card">
+                    <img src="fonts\icons\ignite.png" alt="igniteicon">
+                    <h5>Cultaral Diversity</h5>
+                    <p>Meet Club Fans from all parts of the world ,and get to enjoy the fanbase cultural diversity our club has. </p>
+                </div>
             </div>
         </div>
-        <div class="main-program">
-            <div class="program-card">
-                <img src="fonts\icons\exhibiton.png" alt="exhibitionicon">
-                <h5>CC Exhibition</h5>
-                <p>Appreciate various creations applying CC license of artists,organized from Art Center Nabi.</p>
-            </div>
-        </div>
-        <div class="main-program">
-            <div class="program-card">
-                <img src="fonts\icons\forum.png" alt="forumicon">
-                <h5>Forum</h5>
-                <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
-            </div>
-        </div>
-        <div class="main-program">
-            <div class="program-card">
-                <img src="fonts\icons\workshop.png" alt="workshopicon">
-                <h5>Workshop</h5>
-                <p>Try creating your own work using open source license rather than just watching at it.</p>
-            </div>
-        </div>
-        <div class="main-program">
-            <div class="program-card">
-                <img src="fonts\icons\ignite.png" alt="igniteicon">
-                <h5>CC ignite</h5>
-                <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
-            </div>
-        </div>
-        <button class="card-button"><a>Join CC Global Summit 2015</a></button>
+        <button class="card-button hidden-d"><a>Join RM Global Summit 2015</a></button>
     </section>
+
+
 
     <!-- speakers section -->
     <section class="speaker-section">
         <h3>Featured Speakers</h3>
         <hr class="first-rule">
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(122).png" alt="yochaibenkler">
+        <div class="speakers-container">
+            <div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                        <img class="speaker-pic" src="Icons\speakers\Florentino_perez.jpg" alt="florentinoperez">
+                    </div>
+                    <div class="speaker-description">
+                        <h5>Florentino Perez</h5>
+                        <h6>President of Real Madrid</h6>
+                        <hr class="second-rule">
+                        <p>President of Real Madrid Chairman of The Super League and Chairman of Grupo ACS</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                        <img class="speaker-pic" src="Icons\speakers\Zinedine-Zidane.jpg" alt="zidane">
+                    </div>
+                    <div class="speaker-description">
+                        <h5>Zinedine Yazid Zidane</h5>
+                        <h6>French former football player</h6>
+                        <hr class="second-rule">
+                        <p>Popularly known as Zizou, current coach of Real Madrid and one of the most successful coaches in the world.</p>
+                    </div>
+                </div>
             </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
+            <div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                        <img class="speaker-pic" src="Icons\speakers\marcelo.png" alt="marcelo">
+                    </div>
+                    <div class="speaker-description">
+                        <h5>Marcelo Vieira</h5>
+                        <h6>Brazilian footballer</h6>
+                        <hr class="second-rule">
+                        <p>Known as Marcelo, he plays as a left-back and is the captain of Spanish club Real Madrid.</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                        <img class="speaker-pic" src="Icons\speakers\LHEHD3BMHBMYRGMXUMKRCYUXAM.jpg" alt="yochaibenkler">
+                    </div>
+                    <div class="speaker-description">
+                        <h5>Ronaldo Luís Nazário de Lima</h5>
+                        <h6>Brazilian business professional</h6>
+                        <hr class="second-rule">
+                        <p>He was known as the best player in the world in 2002 before signing for Real Madrid where he scored 104 goals in 177 appearances.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                    <img class="speaker-pic" src="Icons\speakers\4afe54e246f5aa9ac1583a7e58af37a7.jpg" alt="sergioramos">
+                </div>
+                <div class="speaker-description">
+                    <h5>Sergio Ramos</h5>
+                    <h6>Spanish footballer</h6>
+                    <hr class="second-rule">
+                    <p>Sergio Ramos García Real Madrid player, He is widely regarded as one of the greatest defenders of all time.</p>
+                </div>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
+                    <img class="speaker-pic" src="Icons\speakers\Shahter-Reak_M_2015_(2).jpg" alt="yochaibenkler">
+                </div>
+                <div class="speaker-description">
+                    <h5>Rafael Benítez</h5>
+                    <h6>Spanish football manager</h6>
+                    <hr class="second-rule">
+                    <p>Rafael Benítez started coaching staff in Real Madrid at the age of 26,  and he is assistant manager for the senior team.</p>
+                </div>
             </div>
         </div>
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(124).png" alt="yochaibenkler">
-            </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(126).png" alt="yochaibenkler">
-            </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(123).png" alt="yochaibenkler">
-            </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(125).png" alt="yochaibenkler">
-            </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <img class="speaker-bg" src="images\istockphoto-879657138-170667a.jpg" alt="backgroundimage">
-                <img class="speaker-pic" src="images\Screenshot(127).png" alt="yochaibenkler">
-            </div>
-            <div class="speaker-description">
-                <h5>Yochai Benkler</h5>
-                <h6>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h6>
-                <hr class="second-rule">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        
-        <button class="collapse-menu">
+        <button class="collapse-menu hidden-d">
             <p>More</p>
             <img src="Icons\vector1.png" alt="vector">
         </button>
-
     </section>
+
+
+    <section class="partners-section hidden-m">
+        <h3>Partners</h3>
+        <hr class="first-rule">
+        <div class="partners-images">
+            <img src="images\partners\06-preview.png" alt="flyemirateslogo">
+            <img src="images\partners\audi-logo-13.png" alt="audilogo">
+            <img src="images\partners\1280px-Adidas_Logo_Grey.svg.png" alt="adidaslogo">
+            <img src="images\partners\Nivea-v3.png" alt="niveaman">
+        </div>
+    </section>
+
+    <footer class="footer-section hidden-m">
+        <img class="rmlogo" src="Icons\584a9b47b080d7616d298778.png" alt="summit-img">
+        <p>2015 Real Madrid C.F.<br>All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>
