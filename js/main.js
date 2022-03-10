@@ -127,7 +127,7 @@ moreButton.addEventListener('click', openMore);
 moreButton.addEventListener('click', removeMore);
 
 const anchbtn = () => {
-  window.location.href = "https://www.realmadrid.com/en/tour-bernabeu";
+  window.location.href = 'https://www.realmadrid.com/en/tour-bernabeu';
 };
 
 const butn = document.getElementById('butn');
