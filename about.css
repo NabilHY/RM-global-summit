@@ -151,7 +151,14 @@
     width: 80%;
     border: 1px solid #ededed;
     margin: 7% 0;
-    filter: invert(43%) sepia(76%) saturate(550%) hue-rotate(183deg) brightness(90%) contrast(85%);
+  }
+
+  .partners-images img {
+    width: 80%;
+  }
+
+  .footer-section img {
+    width: 20%;
   }
 
   /* partners section styling */
@@ -193,9 +200,7 @@
     grid-template-rows: [row1] 47% [row2] 47%;
   }
 
-  .partners-images img {
-    width: 80%;
-  }
+
 
   /* footer section styling */
 
@@ -207,10 +212,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }
-
-  .footer-section img {
-    width: 20%;
   }
 
   .footer-section p {

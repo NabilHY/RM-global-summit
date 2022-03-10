@@ -16,6 +16,29 @@
 
 <body>
     <header class="header-section">
+        <nav class="mobile-menu hidden-d">
+            <div class="cross">
+                <a href="https://www.realmadrid.com/en"><img class="rmlogo" src="Icons/584a9b47b080d7616d298778.png" alt="rmlogo"></a>
+                <i id="close-btn" class="fas fa-times fa-2x" aria-hidden="true"></i>
+            </div>
+            <ul class="menu-items">
+                <li class="menu-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://www.realmadrid.com/en/tour-bernabeu">Program</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://www.realmadrid.com/en/signup">Join</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://www.realmadrid.com/en/about-real-madrid/the-club/sponsors">Sponsor</a>
+                </li>
+                <li class="menu-item">
+                    <a href="https://www.realmadrid.com/en/about-real-madrid/news">News</a>
+                </li>
+            </ul>
+        </nav>
         <nav class="nav-bar">
             <div class="upper-nav-bar hidden-m">
                 <a href="https://www.facebook.com/RealMadrid/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
@@ -34,7 +57,8 @@
                     <li><a href="https://www.realmadrid.com/en/about-real-madrid/the-club/sponsors">Sponsor</a></li>
                     <li><a href="https://www.realmadrid.com/en/about-real-madrid/news">News</a></li>
                 </ul>
-                <button type="button" class="hidden-m" onclick="window.location.href='https://www.realmadrid.com/en/tour-bernabeu';">Get your invitation</button>
+                <button id="btn" class="button hidden-m" type="button">Get your invitation</button>
+                
             </div>
         </nav>
         <div class="homepage">
@@ -92,6 +116,7 @@
         <img class="hidden-m rmlogo" src="Icons/584a9b47b080d7616d298778.png" alt="summit-img">
         <p>2015 Real Madrid C.F.<br>All Rights Reserved.</p>
     </footer>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

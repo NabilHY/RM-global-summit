@@ -25,7 +25,7 @@
   }
 
   .rmlogo {
-    width: 10%;
+    width: 5%;
   }
 
   .header-section {
@@ -302,6 +302,12 @@
     color: rgb(47, 77, 141);
     font-size: 25px;
     font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .speaker-bg {
+    display: none;
   }
 }
 
