@@ -200,10 +200,6 @@
     grid-template-rows: [row1] 47% [row2] 47%;
   }
 
-
-
-  /* footer section styling */
-
   .footer-section {
     display: flex;
     flex-direction: row;
