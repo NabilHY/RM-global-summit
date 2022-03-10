@@ -24,6 +24,10 @@
     color: #fff;
   }
 
+  .rmlogo {
+    width: 10%;
+  }
+
   .header-section {
     display: flex;
     flex-direction: column;
@@ -251,6 +255,53 @@
 
   .collapse-menu p {
     color: #ec5242;
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: large;
+  }
+
+  /* mobile menu styling */
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+
+  .cross {
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+    color: #272a31;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    padding: 15% 7%;
+    gap: 30px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    color: rgb(47, 77, 141);
+    font-size: 25px;
+    font-weight: 700;
   }
 }
 
@@ -293,15 +344,22 @@
     gap: 20px;
   }
 
-  .hidden-m i {
-    color: #fff;
-  }
-
-  .hidden-m a {
+  .upper-nav-bar a {
     text-decoration: none;
     color: #fff;
     font-family: "lato", sans-serif;
     font-weight: 600;
+  }
+
+  .lower-nav-bar a {
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    font-weight: 600;
+  }
+
+  .lower-nav-bar a:visited {
+    text-decoration: none;
+    color: #272a31;
   }
 
   /* navbar and homepage styling */
@@ -326,6 +384,10 @@
 
   .nav-items li {
     padding: 0 3%;
+  }
+
+  .lower-nav-bar button i {
+    color: #fff;
   }
 
   .lower-nav-bar button {
@@ -553,16 +615,6 @@
     color: #fff;
     font-family: "lato", sans-serif;
     padding: 5%;
-  }
-
-  .first-rule {
-    text-align: center;
-    width: 10%;
-    margin: auto;
-    background-color: #ec5242;
-    height: 3px;
-    border: none;
-    margin-bottom: 30px;
   }
 
   .partners-section h3 {
