@@ -2,13 +2,14 @@
 
 # Project Name
 
-> Markup :  # Module 1 Capstone RM Fans Summit#
+<h1 align="center"> Module One Capstone Project -RM Fans Summit-</h1>
 
 # Screenshots
-Markup :  ### Desktop View ###
-![ScreenShot](/screenshots/Screenshot 2022-03-10 230030.png)
-Markup :  ### Mobile View ###
-![ScreenShot](/screenshots/Screenshot 2022-03-10 225948.png)
+<p align="center">Desktop view</p>
+<img src="./screenshots/Screenshot2022-03-10225948.png">
+
+<p align="center"> Mobile view</p>
+<img src="./screenshots/Screenshot2022-03-10230030.png"> 
 
 
 
