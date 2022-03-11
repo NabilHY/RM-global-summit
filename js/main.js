@@ -68,7 +68,7 @@ const speakerData = [
 ];
 
 const generateSpeakers = (speaker) => {
-  const speakerCard = document.createElement('div');
+  const speakerCard = document.createElement('article');
   const speakerImg = document.createElement('div');
   const speakerDescription = document.createElement('div');
   const speakerBg = document.createElement('img');
