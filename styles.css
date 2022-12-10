@@ -36,7 +36,7 @@ html {
   font-family: var(--lato);
   background-color: #272a31;
   flex-direction: column;
-  padding: 5% 0;  
+  padding: 5% 0;
 }
 
 .program-card img {
@@ -77,7 +77,7 @@ html {
   color: var(--orange-red);
 }
 
-.speaker-description p{
+.speaker-description p {
   font-weight: 500;
   font-size: small;
 }
@@ -179,6 +179,10 @@ html {
   @font-face {
     font-family: "cocogoose";
     src: url("fonts/Cocogoose_trial.otf");
+  }
+
+  .rmlogo {
+    width: 15%;
   }
 
   .hidden-m {
