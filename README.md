@@ -6,11 +6,11 @@
 
 # Screenshots
 <p align="center">Desktop view</p>
-<img src="./screenshots/Screenshot2022-03-10230030.png"> 
+<img src="./screenshots/desktop.png"> 
 
 
 <p align="center"> Mobile view</p>
-<img src="./screenshots/Screenshot2022-03-10225948.png">
+<img src="./screenshots/mobile.png">
 
 
 
