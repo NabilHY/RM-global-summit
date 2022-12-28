@@ -1,5 +1,6 @@
 :root {
   --orange-red: #ec5242;
+  --transparent-orange-red: #ec5342b9;
   --light-grey: #272a31;
   --text-grey: #a2a8b4;
   --white: #fff;
@@ -29,7 +30,6 @@ html {
   font-weight: 600;
   background-image: url('../images/transparent-background.jpg');
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
@@ -47,7 +47,7 @@ html {
 }
 
 .main-container {
-  padding: 2% 10%;
+  padding: 2% 8%;
 }
 
 .main-container h3 {
@@ -118,7 +118,7 @@ html {
   font-weight: 900;
 }
 
-.speaker-section h3 { 
+.speaker-section h3 {
   color: var(--black);
 }
 
@@ -196,7 +196,7 @@ html {
 }
 
 .rmlogo {
-  width: 5%;
+  width: 4%;
 }
 
 /* Mobile version media query css code 767px wide or less */
@@ -318,11 +318,14 @@ html {
   }
 
   .menu-items {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     list-style: none;
     align-items: center;
     margin: auto;
     padding: 15% 7%;
+    text-align: center;
     gap: 30px;
   }
 
@@ -339,7 +342,7 @@ html {
     font-weight: 300;
     letter-spacing: 0.2px;
   }
-  
+
   .bottom-description-container p {
     font-size: 15px;
     font-weight: 500;
@@ -351,15 +354,21 @@ html {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 767px) {
   .speaker-bg {
     display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
   }
 }
 
 /* Desktop version media query css code 768px wide or more */
 @media only screen and (min-width: 768px) {
-
   .hidden-d {
     display: none;
   }
@@ -401,7 +410,7 @@ html {
   }
 
   /* navbar and homepage styling */
- 
+
   .lower-nav-bar {
     display: flex;
     justify-content: space-between;
@@ -414,7 +423,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
   }
 
   .nav-items {
@@ -424,7 +433,7 @@ html {
     color: #777676;
     font-family: var(--lato);
     font-weight: 600;
-    gap: 40px;  
+    gap: 40px;
   }
 
   .lower-nav-bar button {
@@ -556,7 +565,7 @@ html {
     font-weight: 300;
     letter-spacing: 0.2px;
   }
-  
+
   .bottom-description-container p {
     font-family: var(--lato);
     font-size: 18px;
