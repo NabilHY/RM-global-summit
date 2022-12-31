@@ -24,13 +24,13 @@ html {
   box-sizing: border-box;
 }
 
-.homepage h1 {
+.header {
   font-family: var(--cocogoose);
   font-size: 2rem;
   font-weight: 600;
   background-image: url('../images/transparent-background.jpg');
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .header-description {
