@@ -240,13 +240,6 @@ html {
     font-family: var(--lato);
   }
 
-  .header-section h1 {
-    font-family: var(--cocogoose);
-    padding-bottom: 5%;
-  }
-
-  /* works section styling */
-
   .program-card {
     margin: 0 2% 1% 2%;
     align-items: center;
@@ -467,18 +460,11 @@ html {
     gap: 30px;
   }
 
-  .homepage h1 {
-    font-size: 3rem;
-    width: 70%;
-    background-image: url('../images/transparent-background.jpg');
-  }
-
   .homepage h2 {
     font-size: 2rem;
     font-weight: 500;
   }
 
-  /* main program section styling */
   .main-cards {
     display: flex;
     gap: 3px;
