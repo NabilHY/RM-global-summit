@@ -26,7 +26,8 @@ html {
 
 .homepage h1 {
   font-family: var(--cocogoose);
-  font-size: 2rem;
+  font-size: 3rem;
+  width: 70%;
   font-weight: 600;
   background-image: url('../images/transparent-background.jpg');
   -webkit-background-clip: text;
