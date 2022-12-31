@@ -23,7 +23,7 @@
 
 ## Live Demo (if available)
 - To view the live demo ▶️ of my Global Summit webpage
-Click [Here](https://nabilhy.github.io/RM-global-summit/)
+Click [Here](rm-global-summit.vercel.app)
 
 ## Getting Started
 - To clone this repositry on your Local desktop
