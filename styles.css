@@ -24,7 +24,7 @@ html {
   box-sizing: border-box;
 }
 
-.header {
+.homepage h1 {
   font-family: var(--cocogoose);
   font-size: 2rem;
   font-weight: 600;
